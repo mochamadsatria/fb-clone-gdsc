@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fakebook
 
-## Getting Started
+An incomplete Facebook clone for GDSC member recruitment phase 2.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Next.js
+- Tailwindcss
+- Firebase
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Experiences
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+On the developing process, I am personally implement incremental structure pattern of Next 12 and Next 13. The difference is between `pages` folder for Next 12 and `app` folder for Next 13.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+This project is completely client side application. Why no SSR in it? the answer is simple, no need, expecially for a simpel demo project.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## What you can do in this app?
 
-## Learn More
+- Create account and login.
+- Create new text based post.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I have disabled many features to keep this project simple and the goal on track: fullfilling GDSC requirement for member recruitement phase 2.
